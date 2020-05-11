@@ -1971,3 +1971,10 @@ footer{
     height:50px;
     visibility: hidden;
 }
+.service-grid:hover{
+    transform: scale(1.1);
+}
+
+#row_counter .text .anim-counter:hover {
+    transform: scale(1.5);
+}
