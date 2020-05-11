@@ -99,6 +99,17 @@
                 }
             }
         });
+
+        jQuery('#clients img').hover(function(){
+                var str = jQuery(this).attr('src');
+                var attr = str.replace("clients_logo_hidden", "clients_logo_color");
+                jQuery(this).attr('src',attr)
+            },function(){
+                var str = jQuery(this).attr('src');
+                var attr = str.replace( "clients_logo_color","clients_logo_hidden");
+                jQuery(this).attr('src',attr)
+            }
+        );
     };
     carousel();
 
@@ -177,6 +188,7 @@
         } , { offset: '95%' } );
     };
     contentWayPoint();
+
 
 	
 
