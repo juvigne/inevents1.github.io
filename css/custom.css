@@ -3,9 +3,6 @@
     src:url('fonts/ChampagneLimousinesBold.ttf');
 }
 
-
 * {
-    font-family: "ChampagneLimousine";
+    font-family: "ChampagneLimousine","Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;;
 }
-
-/**Banner**/
