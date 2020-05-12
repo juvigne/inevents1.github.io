@@ -1205,7 +1205,7 @@ font-size: 28px;
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/to-top1.png") no-repeat 0px 0px;
+	background: url("../images/home/inevents_to-top.png") no-repeat 0px 0px;
     z-index:600;
 }
 #toTopHover {
