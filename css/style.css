@@ -236,13 +236,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 {
 	text-align:center;
 }
-.service a span
-{
-	background:url(../images/img-sprits.png) no-repeat 0px 0px;
-	width:120px;
-	height:120px;
-	display: inline-block;
-}
+
 .service-grid h2 a
 {
 	font-size:24px;
@@ -270,20 +264,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	
 	color:#999898;	
 }
-.service a span.security
-{
-	background:url(../images/img-sprits.png) no-repeat -282px 0px;
-	width:120px;
-	height:120px;
-	display: inline-block;
-}
-.service a span.seconds
-{
-	background:url(../images/img-sprits.png) no-repeat -560px 0px;
-	width:120px;
-	height:120px;
-	display: inline-block;
-}
+
 /*--- content-recent-works ----*/
 .recent-works-text
 {
@@ -832,28 +813,28 @@ font-size: 28px;
 }
 .icons  ul li.icon1 a small
 {
-	background:url(../images/social-icons1.png) no-repeat 0px 0px;
+
 	width:24px;
 	height:24px;
 	display: inline-block;
 }
 .icons  ul li.icon2 a small
 {
-	background:url(../images/social-icons1.png) no-repeat -36px 0px;
+
 	width:24px;
 	height:24px;
 	display: inline-block;
 }
 .icons  ul li.icon3 a small
 {
-	background:url(../images/social-icons1.png) no-repeat -71px 0px;
+
 	width:24px;
 	height:24px;
 	display: inline-block;
 }
 .icons  ul li.icon1 a small:hover
 {
-	background:url(../images/social-iconshr.png) no-repeat 0px 0px;
+
 	transition:0.5s;
 	-webkit-transition:0.5s;
 	-moz-transition:0.5s;
@@ -862,7 +843,7 @@ font-size: 28px;
 }
 .icons  ul li.icon2 a small:hover
 {
-	background:url(../images/social-iconshr.png) no-repeat -36px 0px;
+
 	transition:0.5s;
 	-webkit-transition:0.5s;
 	-moz-transition:0.5s;
@@ -871,7 +852,7 @@ font-size: 28px;
 }
 .icons  ul li.icon3 a small:hover
 {
-	background:url(../images/social-iconshr.png) no-repeat -71px 0px;
+
 	transition:0.5s;
 	-webkit-transition:0.5s;
 	-moz-transition:0.5s;
@@ -880,7 +861,7 @@ font-size: 28px;
 }
 .grid-right-middle-img
 {
-	background:url(../images/team-img.png) no-repeat -212px 0px;
+
 	width:120px;
 	height:118px;
 	display: inline-block;
@@ -888,7 +869,7 @@ font-size: 28px;
 }
 .grid-right-right-img
 {
-	background:url(../images/team-img.png) no-repeat -425px 0px;
+
 	width:120px;
 	height:118px;
 	display: inline-block;

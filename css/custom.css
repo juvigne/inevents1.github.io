@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'ChampagneLimousine';
+    src:url('fonts/ChampagneLimousinesBold.ttf');
+}
+
+
 * {
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: "ChampagneLimousine";
 }
 
 /**Banner**/
