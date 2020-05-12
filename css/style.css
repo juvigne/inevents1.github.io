@@ -39,10 +39,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 .header-logo  a
 {
-    color: #002752;
-	font-weight:800;
-	font-size: 45px;
-	text-decoration:none;
+    width:200px;
+    margin:15px;
 }
 .header-nav
 {
@@ -1417,7 +1415,7 @@ span.menu:before
 	{
 	}
     #toptotop{
-       height: 80px !important;
+       height: 70px !important;
     }
 
 	.divise-info p 

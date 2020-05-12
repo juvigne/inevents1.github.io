@@ -6,3 +6,52 @@
 * {
     font-family: "ChampagneLimousine","Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;;
 }
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+}
+.example2 .navbar-brand>img {
+     padding: 7px 15px;
+ }
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 50px;
+}
+.navbar-alignit .navbar-brand {
+    top: 50%;
+    display: block;
+    position: relative;
+    height: auto;
+    transform: translate(0,-50%);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.navbar-toggle{
+    background-color:#8eb0e7;
+    margin-top:10px;
+}
+.navbar-toggle .icon-bar{
+    background-color:white;
+}
+
+
+
+.navbar-nav>li>.dropdown-menu {
+    z-index: 9999;
+}
+.nav.navbar-nav.navbar-right{
+    margin-top:10px;
+}
+.navbar-brand{
+    width:200px;
+    margin-bottom:20px;
+}
+.navbar{
+    margin-bottom:0px;
+}
