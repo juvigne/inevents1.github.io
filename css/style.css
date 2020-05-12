@@ -1231,6 +1231,7 @@ span.menu:before
 {
 	display:none;
 }
+
 /*----- responsive-design ------*/
 @media (max-width:1280px)
 {
@@ -1377,6 +1378,13 @@ span.menu:before
 @media (max-width:768px)
 {
 
+    .testimony-wrap p {
+        font-size: 10px !important;
+    }
+
+    #row_counter .text{
+        margin-bottom:55px;
+    }
 	/*----- resposnive-menu -----*/
 	.header-nav 
 	{
@@ -1405,10 +1413,14 @@ span.menu:before
 		width: 96%;
 		background: rgba(47, 187, 142, 0.64)
 	}
+    #services .content-girds .wow{
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
 
 	.divise-info 
 	{
-		margin-top: 7%;
+		margin-top: 20%;
 		text-align: center;
 	}
 	.divise-info  h1
@@ -1608,6 +1620,22 @@ span.menu:before
 }
 @media (max-width:480px)
 {
+    .divise-info .dynamix-infos{
+        min-height : 132px;
+    }
+    .mobile-dv-hide{
+        display:none;
+    }
+    .mobile-dv-show{
+        display:block;
+    }
+    .content-cashless #cashless,
+    .content-accred #accred,
+    .content-crm #crm
+    {
+        padding-top:0px;
+        padding-bottom:0px;
+    }
 	.header 
 	{
 
