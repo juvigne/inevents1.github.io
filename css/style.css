@@ -1415,8 +1415,11 @@ span.menu:before
 	}
 	.divise-info  h1
 	{
-		color:#1C8DD5;
 	}
+    #toptotop{
+       height: 80px !important;
+    }
+
 	.divise-info p 
 	{
 		color: #999898;
@@ -1609,7 +1612,7 @@ span.menu:before
 {
 	.header 
 	{
-		height: 435px;
+
 	}
 	.header-nav ul 
 	{
