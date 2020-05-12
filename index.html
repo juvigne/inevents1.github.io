@@ -149,13 +149,6 @@
         </div>
     </div>
 </div>
-<script>
-    $("span.menu").click(function(){
-        $(".header-nav ul").slideToggle("slow" , function(){
-        });
-    });
-</script>
-
 <!--Ancre-->
 <div id="toptotop" ></div>
 <!--- End Menu ---->
@@ -572,7 +565,15 @@
     </div>
 </footer>
 <!--- footer ---->
+<a href="#toptotop" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 <!---smoth-scrlling---->
 <script type="text/javascript">
     jQuery(document).ready(function(){
@@ -586,17 +587,12 @@
                 window.location.hash = target;
             });
         });
+
+        jQuery("span.menu").click(function(){
+            jQuery(".header-nav ul").slideToggle("slow" , function(){
+            });
+        });
     });
 </script>
-<!---//smoth-scrlling---->
-<a href="#toptotop" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-
-<script src="js/jquery-2.1.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
 </body>
 </html>
