@@ -28,14 +28,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 .header-logo
 {
+    max-width:200px;
+    width:200px;
 	float:left;
 }
-.header-logo h2
+.header-logo
 {
 	margin:0;
 	padding:0;
 }
-.header-logo h2 a
+.header-logo  a
 {
     color: #002752;
 	font-weight:800;
@@ -1303,7 +1305,7 @@ span.menu:before
 }
 @media (max-width:1024px)
 {
-	.header-logo h2 a 
+	.header-logo  a
 	{
 		font-size: 43px;
 	}
