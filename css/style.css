@@ -96,6 +96,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .banner{
     background: linear-gradient(rgba(138, 171, 229,0.2), white);
 }
+.inaccred_banner{
+    background: linear-gradient(rgba(138, 171, 229,0.2), white);
+    padding-bottom:50px;
+}
 .divise-info
 {
     margin-top:100px;
@@ -420,7 +424,6 @@ display: block;
 .about h3 {
     font-weight: 700;
     font-size: 34px;
-    color: #a70606 ;
     font-family: "Work Sans";
 }
 
@@ -428,7 +431,7 @@ display: block;
     font-size: 20px;
     font-weight: 700;
     margin-top: 5px;
-    color: #a70606 ;
+
 }
 
 .about i {
@@ -1989,4 +1992,16 @@ footer{
 
 #row_counter .text .anim-counter:hover {
     transform: scale(1.5);
+}
+
+/***IN ACCRED**/
+#inaccred_images1{
+    background-size: cover;
+    background:url(../images/inaccred/inevents_inaccred_1.png) no-repeat 0px 0px;
+}
+.inaccred_info_logo{
+    color:white; margin:10px;
+}
+.inaccred_about{
+    margin:50px;
 }
