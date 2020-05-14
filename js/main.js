@@ -1,3 +1,7 @@
+AOS.init({
+    duration: 800,
+    easing: 'slide'
+});
 (function($) {
 	// TYPEWRITE
 	var TxtType = function(el, toRotate, period) {
