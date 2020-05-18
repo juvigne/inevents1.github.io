@@ -100,6 +100,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     background: linear-gradient(rgba(138, 171, 229,0.2), white);
     padding-bottom:50px;
 }
+.incrm_banner{
+    background: linear-gradient(rgba(127, 187, 184,0.2), white);
+    padding-bottom:50px;
+}
+.incashless_banner{
+    background: linear-gradient(rgba(151, 121, 188,0.2), white);
+    padding-bottom:50px;
+}
+.incashless_banner .divise-info .typewrite{
+    color: rgb(151, 121, 188);
+}
+.incrm_banner .divise-info .typewrite{
+    color: rgb(127, 187, 184);
+}
+
 .inteam_banner{
     background:#1D9FC4;
 }
@@ -181,8 +196,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     background:rgb(127, 187, 184);
     background-attachment: fixed;background-size: cover;
     color:white;
-
-
 }
 .content-crm #crm
 {
@@ -1095,7 +1108,7 @@ font-size: 28px;
 /*--- footer ---*/
 .footer
 {
-	background:rgba(138, 171, 229);
+/*	background:rgba(138, 171, 229);*/
 	padding:2% 0;
 }
 .footer-left
@@ -1958,7 +1971,8 @@ footer ul li{
 }
 footer{
     padding-top:50px;
-    background:rgba(138, 171, 229,0.2);
+/*    background:rgba(138, 171, 229,0.2);*/
+    background-color: #F7F7F7;
 }
 .ftco-heading-2-link{
     text-align:center;
