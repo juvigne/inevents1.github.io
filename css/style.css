@@ -2106,7 +2106,13 @@ footer{
 }
 .progress-bar{
     background-color: white;
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
 }
-.progress-bar{
-    background-color: rgba(29, 159, 196, 0.15);
+
+.progress {
+    border:1px solid white;
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+    background-color:unset;
 }
