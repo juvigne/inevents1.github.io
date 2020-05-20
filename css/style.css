@@ -187,7 +187,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 .divise-info p.text
 {
-	color:#B4B3B3;
 	font-size:14px;
 	margin-top: 7%;
 }
@@ -1158,10 +1157,19 @@ span.menu:before
 {
 	display:none;
 }
-
+#services .service-grid .service svg{
+    margin-top:25px;
+    margin-left:50px;
+    margin-right:50px;
+}
 /*----- responsive-design ------*/
 @media (max-width:1280px)
 {
+    #services .service-grid .service svg{
+        margin-top:25px;
+        margin-left:50px;
+        margin-right:50px;
+    }
 	.divise-info h1 
 	{
 		font-size: 50px;
@@ -1231,6 +1239,11 @@ span.menu:before
 }
 @media (max-width:1024px)
 {
+    #services .service-grid .service svg{
+        margin-top:25px;
+        margin-left:50px;
+        margin-right:50px;
+    }
 	.header-logo  a
 	{
 		font-size: 43px;
@@ -1304,7 +1317,11 @@ span.menu:before
 
 @media (max-width:768px)
 {
-
+    #services .service-grid .service svg{
+        margin-top:25px;
+        margin-left:50px;
+        margin-right:50px;
+    }
     .testimony-wrap p {
         font-size: 10px !important;
     }
@@ -1359,7 +1376,7 @@ span.menu:before
 
 	.divise-info p 
 	{
-		color: #999898;
+
 	}
 	.header
 	{
@@ -1507,6 +1524,11 @@ span.menu:before
 		width: 95%;
 		margin: 0 auto;
 	}*/
+    #services .service-grid .service svg{
+        margin-top:0px;
+        margin-left:0px;
+        margin-right:0px;
+    }
 	.header-nav ul 
 	{
 		padding: 1.5% 0;
@@ -1927,11 +1949,6 @@ footer{
 #services-cashless h2 a{
     color: #50a0d2 !important;
 }
-#services .service-grid .service svg{
-    margin-top:25px;
-    margin-left:50px;
-    margin-right:50px;
-}
 /***/
 .content #services
 {
@@ -2001,7 +2018,7 @@ footer{
 }
 /***INCASHLESS PAGE**/
 .incashless_banner{
-    background: linear-gradient(rgba(151, 121, 188,0.2), white);
+    background: linear-gradient(rgba(151, 121, 188,1), white);
     padding-bottom:50px;
 }
 .incashless_banner .divise-info .typewrite{
@@ -2009,7 +2026,7 @@ footer{
 }
 /***INACCRED PAGE**/
 .inaccred_banner{
-    background: linear-gradient(rgba(138, 171, 229,0.2), white);
+    background: linear-gradient(rgba(138, 171, 229,1), white);
     padding-bottom:50px;
 }
 #inaccred_images1{
