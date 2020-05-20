@@ -118,6 +118,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .inteam_banner{
     background:#1D9FC4;
 }
+
+.infaq_banner{
+    background:#009FDD;
+}
 .divise-info
 {
     margin-top:100px;
@@ -193,7 +197,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     padding-bottom:100px;
 }
 .content-crm{
-    background:rgb(127, 187, 184);
+    background:#50a0d2;
     background-attachment: fixed;background-size: cover;
     color:white;
 }
@@ -224,8 +228,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 .content-cashless
 {
-    background-size: cover;
-    background:url(../images/home/inevents_background_triangle.png) no-repeat 0px 0px;
     padding-bottom:50px;
 }
 .content-cashless #cashless
@@ -1986,17 +1988,17 @@ footer{
 
 #services h2 {
     margin-top:0px;
-    color: #7fbbb8 !important;
+    color: #50a0d2 !important;
 }
 #services-marketing h2 a,
 #services-crm h2 a {
-    color: #7fbbb8 !important;
+    color: #50a0d2 !important;
 }
 #services-accred h2 a {
-    color: #8eb0e7 !important;
+    color: #50a0d2 !important;
 }
 #services-cashless h2 a{
-    color: #9778bc !important;
+    color: #50a0d2 !important;
 }
 
 #toptotop{
@@ -2129,4 +2131,63 @@ footer{
     -webkit-box-shadow: unset !important;
     box-shadow: unset !important;
     background-color:unset;
+}
+
+/*FAQ*/
+#accordionfaq h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+#accordionfaq {
+    background-color: #F7F7F7;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+#accordionfaq .panel-title{
+    text-align:left;
+}
+#accordionfaq .panel.panel-default{
+    background-color:unset;
+    border:unset;
+    box-shadow: unset;
+}
+#accordionfaq .panel-default > .panel-heading{
+    background-color:unset;
+    border:unset;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#accordionfaq .panel.panel-default{
+    border-bottom:1px solid rgba(29, 159, 196, 0.2);
+}
+
+#accordionfaq .panel-default > .panel-heading + .panel-collapse .panel-body{
+    border:unset;
 }
