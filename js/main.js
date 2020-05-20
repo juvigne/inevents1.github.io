@@ -57,7 +57,7 @@ AOS.init({
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid black}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #0E4166}";
         document.body.appendChild(css);
     };
 

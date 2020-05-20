@@ -4,6 +4,63 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+@font-face {
+    font-family: 'ChampagneLimousine';
+    src:url('fonts/ChampagneLimousinesBold.ttf');
+}
+
+* {
+    font-family: "ChampagneLimousine","Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+}
+.example2 .navbar-brand>img {
+    padding: 7px 15px;
+}
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 50px;
+}
+.navbar-alignit .navbar-brand {
+    top: 50%;
+    display: block;
+    position: relative;
+    height: auto;
+    transform: translate(0,-50%);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.navbar-toggle{
+    background-color:#8eb0e7;
+    margin-top:10px;
+}
+.navbar-toggle .icon-bar{
+    background-color:white;
+}
+
+
+
+.navbar-nav>li>.dropdown-menu {
+    z-index: 9999;
+}
+.nav.navbar-nav.navbar-right{
+    margin-top:10px;
+}
+.navbar-brand{
+    width:200px;
+    margin-bottom:20px;
+}
+.navbar{
+    margin-bottom:0px;
+}
 /*--- header ----*/
 #to-top{
     position: fixed;
@@ -15,17 +72,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     -moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.45);
     box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.45);
 }
-.header
-{
-
-
-}
-/*.container
-{
-	width: 70%;
-	margin: 0 auto;
-}*/
-
 .header-logo
 {
     max-width:200px;
@@ -93,38 +139,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 {
 	color:#FFFFFF;
 }
-.banner{
-    /*background: linear-gradient(rgba(138, 171, 229,0.2), white);*/
-    background:url(../images/home/inevents_slider_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.inaccred_banner{
-    background: linear-gradient(rgba(138, 171, 229,0.2), white);
-    padding-bottom:50px;
-}
-.incrm_banner{
-    background: linear-gradient(rgba(127, 187, 184,0.2), white);
-    padding-bottom:50px;
-}
-.incashless_banner{
-    background: linear-gradient(rgba(151, 121, 188,0.2), white);
-    padding-bottom:50px;
-}
-.incashless_banner .divise-info .typewrite{
-    color: rgb(151, 121, 188);
-}
-.incrm_banner .divise-info .typewrite{
-    color: rgb(127, 187, 184);
-}
-
-.inteam_banner{
-    background:#1D9FC4;
-}
-
-.infaq_banner{
-    background:#009FDD;
-}
 .divise-info
 {
     margin-top:150px;
@@ -184,7 +198,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 .divise-info .typewrite
 {
-    color:#8eb0e7;
+    color: rgb(14, 65, 102);
 }
 
 .header-bg
@@ -194,65 +208,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .content
 {
 }
-.content #services
-{
-   padding-top:50px;
-    padding-bottom:100px;
-}
-.content-crm{
-    background:#50a0d2;
-    background-attachment: fixed;background-size: cover;
-    color:white;
-}
-.content-crm #crm
-{
-    padding-top:50px;
-    padding-bottom:50px;
-}
-.content-crm #crm img
-{
-   position:relative;
-    top:-100px;
-}
-.content-accred #accred img
-{
-    position:relative;
-    top:-106px;
-}
-.content-accred{
-    background:rgba(142, 176, 231, 1);
-    color:white;
 
-}
-.content-accred #accred
-{
-    padding-top:50px;
-    padding-bottom:50px;
-}
-.content-cashless
-{
-    padding-bottom:50px;
-}
-.content-cashless #cashless
-{
-    padding-top:50px;
-    padding-bottom:50px;
-}
-.content-counter {
-    background:rgba(241, 183, 185, 1);
-    padding-top:50px;
-    padding-bottom:50px;
-    color:white;
-}
-#row_counter strong{
-    font-size:45px;
-}
-
-.content-clients #clients
-{
-    padding-top:50px;
-    padding-bottom:50px;
-}
 .content-girds
 {
 	text-align:center;
@@ -1159,64 +1115,11 @@ font-size: 28px;
 	margin: 0;
 	padding:0;
 }
-.footer-right ul li
-{
-	display:inline-block;
-}
-.footer-right ul li a span
-{
-	background:url(../images/social-icons.png) no-repeat 0px 0px;
-	width:32px;
-	height:32px;
-	display: inline-block;
-	margin: 0 .5em;
-}
-.footer-right ul li a span:hover
-{
-	background:url(../images/social-icons1hr.png) no-repeat 0px 0px;
-	transition:0.5s;
-	-webkit-transition:0.5s;
-	-moz-transition:0.5s;
-	-o-transition:0.5s;
-	-ms-transition:0.5s;
-}
-.footer-right ul li a span.twitter
-{
-	background:url(../images/social-icons.png) no-repeat -44px 0px;
-	width:32px;
-	height:32px;
-	display: inline-block;
-	margin: 0 .5em;
-}
-.footer-right ul li a span.twitter:hover
-{
-	background:url(../images/social-icons1hr.png) no-repeat -44px 0px;
-	transition:0.5s;
-	-webkit-transition:0.5s;
-	-moz-transition:0.5s;
-	-o-transition:0.5s;
-	-ms-transition:0.5s;
-}
-.footer-right ul li a span.in
-{
-	background:url(../images/social-icons.png) no-repeat -90px 0px;
-	width:32px;
-	height:32px;
-	display: inline-block;
-	margin: 0 .5em;
-}
+
 .footer-right h3{
     margin-top:0;
 }
-.footer-right ul li a span.in:hover
-{
-	background:url(../images/social-icons1hr.png) no-repeat -90px 0px;
-	transition:0.5s;
-	-webkit-transition:0.5s;
-	-moz-transition:0.5s;
-	-o-transition:0.5s;
-	-ms-transition:0.5s;
-}
+
 /*----- to-top ----*/
 #toTop {
 	display: none;
@@ -1917,7 +1820,7 @@ span.menu:before
     right: 0;
     width: 40px;
     height: 40px;
-    background: #79efb4;
+    background: #0f6f9b;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1989,6 +1892,27 @@ footer{
     text-align:right;
 }
 
+
+#toptotop{
+    height:50px;
+    visibility: hidden;
+}
+.service-grid:hover{
+    transform: scale(1.1);
+}
+
+#row_counter .text .anim-counter:hover {
+    transform: scale(1.5);
+}
+/***IN HOME***/
+/*************/
+/***banner***/
+.banner{
+    background:url(../images/home/inevents_slider_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/***Service***/
 #services h2 {
     margin-top:0px;
     color: #50a0d2 !important;
@@ -2003,20 +1927,91 @@ footer{
 #services-cashless h2 a{
     color: #50a0d2 !important;
 }
-
-#toptotop{
-    height:50px;
-    visibility: hidden;
+#services .service-grid .service svg{
+    margin-top:25px;
+    margin-left:50px;
+    margin-right:50px;
 }
-.service-grid:hover{
-    transform: scale(1.1);
+/***/
+.content #services
+{
+    padding-bottom:100px;
+}
+.content-crm{
+    background:#50a0d2;
+    background-attachment: fixed;background-size: cover;
+    color:white;
+}
+.content-crm #crm
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.content-crm #crm img
+{
+    position:relative;
+    top:-100px;
+}
+.content-accred #accred img
+{
+    position:relative;
+    top:-106px;
+}
+.content-accred{
+    background:rgba(142, 176, 231, 1);
+    color:white;
+
+}
+.content-accred #accred
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.content-cashless
+{
+    padding-bottom:50px;
+}
+.content-cashless #cashless
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.content-counter {
+    background:rgba(241, 183, 185, 1);
+    padding-top:50px;
+    padding-bottom:50px;
+    color:white;
+}
+#row_counter strong{
+    font-size:45px;
 }
 
-#row_counter .text .anim-counter:hover {
-    transform: scale(1.5);
+.content-clients #clients
+{
+    padding-top:50px;
+    padding-bottom:50px;
 }
-
-/***IN ACCRED**/
+/***INCRM PAGE**/
+.incrm_banner .divise-info .typewrite{
+    color: rgb(14, 65, 102);
+}
+.incrm_banner{
+    background: linear-gradient(rgba(80, 160, 210,1), white);
+    padding-bottom:50px;
+}
+/***INCASHLESS PAGE**/
+.incashless_banner{
+    background: linear-gradient(rgba(151, 121, 188,0.2), white);
+    padding-bottom:50px;
+}
+.incashless_banner .divise-info .typewrite{
+    color: rgb(14, 65, 102);
+}
+/***INACCRED PAGE**/
+.inaccred_banner{
+    background: linear-gradient(rgba(138, 171, 229,0.2), white);
+    padding-bottom:50px;
+}
 #inaccred_images1{
     background-size: cover;
     background:url(../images/inaccred/inevents_inaccred_1.png) no-repeat 0px 0px;
@@ -2026,6 +2021,10 @@ footer{
 }
 .inaccred_about{
     margin:50px;
+}
+/***INTEAM***/
+.inteam_banner{
+    background:#1D9FC4;
 }
 .team {
     background: #fff;
@@ -2136,7 +2135,10 @@ footer{
     background-color:unset;
 }
 
-/*FAQ*/
+/***INFAQ***/
+.infaq_banner{
+    background:#009FDD;
+}
 #accordionfaq h2 {
     font-family: Arial, Verdana;
     font-weight: 800;
