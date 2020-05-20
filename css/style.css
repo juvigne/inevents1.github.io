@@ -164,21 +164,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 {
     margin:25px;
 }
-.get  a
+.get a
 {
 	padding:01em 1.5em;
-	border: #8eb0e7 solid 2px;
-	background:#8eb0e7;
-	color:#FFFFFF;
+	border: white solid 2px;
+	background:transparent;
+	color:white;
 	font-weight:700;
 	border-radius:7px;
 }
-.get  a:hover
+.get a:hover
 {
-	background:#FFFFFF;
-	color:#8eb0e7;
+	background:transparent;
+	color:#0e4166;
 	text-decoration:none;
-	border: #8eb0e7 solid 2px;
+	border: #0e4166 solid 2px;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-o-transition:0.5s all;
