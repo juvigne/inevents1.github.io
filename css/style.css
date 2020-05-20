@@ -94,7 +94,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	color:#FFFFFF;
 }
 .banner{
-    background: linear-gradient(rgba(138, 171, 229,0.2), white);
+    /*background: linear-gradient(rgba(138, 171, 229,0.2), white);*/
+    background:url(../images/home/inevents_slider_home.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
 }
 .inaccred_banner{
     background: linear-gradient(rgba(138, 171, 229,0.2), white);
@@ -124,9 +130,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 .divise-info
 {
-    margin-top:100px;
-    margin-bottom:20px;
-	color: rgb(51, 51, 51);;
+    margin-top:150px;
+    margin-bottom:150px;
+	color: white;
 }
 .divise-info h1
 {
