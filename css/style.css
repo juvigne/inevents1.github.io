@@ -2223,3 +2223,7 @@ footer{
     font-family: 'FontAwesome' !important;
     margin-top: 33%;
 }
+/**INBLOG**/
+.inblog_banner{
+    background:#20A1CE;
+}
