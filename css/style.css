@@ -306,11 +306,11 @@ display: block;
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #fbe2d8 !important;
+    background-color: lightgrey !important;
 }
 
 .content-clients .owl-dot.active {
-    background-color: #133bb3 !important;
+    background-color: #50C1D2 !important;
 }
 
 .subheading{
@@ -366,7 +366,7 @@ display: block;
     border-radius: 50%;
     background: #dadadc; }
 .owl-carousel .owl-dots .owl-dot.active {
-    background: #133bb3; }
+    background: #50C1D2; }
 .owl-carousel:hover .owl-nav .owl-prev,
 .owl-carousel:hover .owl-nav .owl-next {
     opacity: 1; }
@@ -1842,7 +1842,7 @@ span.menu:before
     right: 0;
     width: 40px;
     height: 40px;
-    background: #0f6f9b;
+    background: #50C1D2;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1944,14 +1944,15 @@ footer{
     color: #50a0d2 !important;
 }
 #services-accred h2 a {
-    color: #50a0d2 !important;
+    color: #95B1E3 !important;
 }
 #services-cashless h2 a{
-    color: #50a0d2 !important;
+    color: #0B496F !important;
 }
 /***/
 .content #services
 {
+    padding-top:10px;
     padding-bottom:100px;
 }
 .content-crm{
@@ -1975,7 +1976,7 @@ footer{
     top:-106px;
 }
 .content-accred{
-    background:rgba(142, 176, 231, 1);
+    background:rgba(149, 177, 227, 1);
     color:white;
 
 }
@@ -1994,7 +1995,7 @@ footer{
     padding-bottom:50px;
 }
 .content-counter {
-    background:rgba(241, 183, 185, 1);
+    background:rgba(80, 193, 210, 1);
     padding-top:50px;
     padding-bottom:50px;
     color:white;
@@ -2008,6 +2009,11 @@ footer{
     padding-top:50px;
     padding-bottom:50px;
 }
+#avis_subtilte,
+#client_subtitle{
+    color:#50C1D2;
+}
+
 /***INCRM PAGE**/
 .incrm_banner .divise-info .typewrite{
     color: rgb(14, 65, 102);
@@ -2018,7 +2024,7 @@ footer{
 }
 /***INCASHLESS PAGE**/
 .incashless_banner{
-    background: linear-gradient(rgba(151, 121, 188,1), white);
+    background: linear-gradient(rgba(14, 65, 102,1), white);
     padding-bottom:50px;
 }
 .incashless_banner .divise-info .typewrite{
@@ -2212,4 +2218,8 @@ footer{
 
 #accordionfaq .panel-default > .panel-heading + .panel-collapse .panel-body{
     border:unset;
+}
+.icon_quote{
+    font-family: 'FontAwesome' !important;
+    margin-top: 33%;
 }
